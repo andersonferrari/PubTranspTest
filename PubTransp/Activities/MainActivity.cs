@@ -14,6 +14,7 @@ using Android.Content.PM;
 
 namespace PubTransp.Activities
 {
+    //waiting for review
     [Activity(Label = "Public Transport Search", MainLauncher = true, Icon = "@drawable/icon", ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
     public class MainActivity : Activity
     {
