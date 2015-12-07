@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ApplicationName">PubTransp</string>
+    <string name="StreetName">Enter street name</string>
+    <string name="Search">Search</string>
+</resources>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <TextView
+        android:text="Weekdays timetable:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/WeekdaysHeader"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:paddingBottom="5dp" />
+    <GridView
+        Header="Weekdays Timetable"
+        android:id="@+id/gridWeekdays"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:columnWidth="50dp"
+        android:numColumns="auto_fit"
+        android:verticalSpacing="1dp"
+        android:horizontalSpacing="1dp"
+        android:stretchMode="columnWidth"
+        android:gravity="center"
+        android:paddingBottom="5dp" />
+    <View
+        android:id="@+id/space3"
+        android:layout_width="fill_parent"
+        android:layout_height="2dip"
+        android:background="@android:color/holo_orange_light" />
+    <TextView
+        android:text="Saturday timetable:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/SaturdaysHeader"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:paddingBottom="5dp" />
+    <GridView
+        Header="Weekdays Timetable"
+        android:id="@+id/gridSaturdays"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:columnWidth="50dp"
+        android:numColumns="auto_fit"
+        android:verticalSpacing="1dp"
+        android:horizontalSpacing="1dp"
+        android:stretchMode="columnWidth"
+        android:gravity="center"
+        android:paddingBottom="5dp" />
+    <View
+        android:id="@+id/space4"
+        android:layout_width="fill_parent"
+        android:layout_height="2dip"
+        android:background="@android:color/holo_orange_light" />
+    <TextView
+        android:text="Sunday timetable:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/SundaysHeader"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:paddingBottom="5dp" />
+    <GridView
+        android:id="@+id/gridSundays"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:columnWidth="50dp"
+        android:numColumns="auto_fit"
+        android:verticalSpacing="1dp"
+        android:horizontalSpacing="1dp"
+        android:stretchMode="columnWidth"
+        android:gravity="center"
+        android:paddingBottom="5dp" />
+    <Button
+        android:text="Back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnBack" />
+</LinearLayout>
